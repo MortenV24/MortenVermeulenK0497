@@ -16,6 +16,7 @@
         >
 
         <ImageView
+            android:contentDescription="Attractie"
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:scaleType="centerCrop"
@@ -31,7 +32,6 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:paddingTop="2dp"
-            android:paddingStart="10dp"
             android:textColor="@color/colorWhite"
             />
         <TextView
@@ -41,7 +41,6 @@
             android:text="POST_PLACE"
             android:textSize="15sp"
             android:textAlignment="center"
-            android:paddingStart="10dp"
             android:textColor="@color/colorWhite"
             />
     </LinearLayout>
